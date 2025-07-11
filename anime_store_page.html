@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Otaku Kōnā オタクコーナ</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #f9f9fb;
+      color: #222;
+    }
+    header {
+      background: #111;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+    header p {
+      font-size: 1rem;
+      color: #ccc;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+    .product {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.08);
+      padding: 20px;
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .product h3 {
+      margin: 10px 0 5px;
+      font-size: 1.2rem;
+    }
+    .product p {
+      color: #555;
+      font-size: 1rem;
+    }
+    .price {
+      font-weight: bold;
+      color: #e63946;
+    }
+    .btn {
+      margin-top: 10px;
+      display: inline-block;
+      background: #e63946;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #d62828;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Otaku Kōnā オタクコーナ</h1>
+    <p>Anime Apparel | アニメウェア・ストア</p>
+  </header>
+
+  <section class="products">
+    <div class="product">
+      <img src="https://example.com/naruto-shirt.jpg" alt="Naruto T-Shirt">
+      <h3>Naruto Uzumaki Tee</h3>
+      <p>Shippuden Edition ナルト Tシャツ</p>
+      <p class="price">$18.99</p>
+      <a href="#" class="btn">Order Now</a>
+    </div>
+
+    <div class="product">
+      <img src="https://example.com/tokyo-ghoul-mask.jpg" alt="Tokyo Ghoul Mask">
+      <h3>Kaneki Ken Mask</h3>
+      <p>Cosplay Accessory コスプレイマスク</p>
+      <p class="price">$12.00</p>
+      <a href="#" class="btn">Order Now</a>
+    </div>
+
+    <div class="product">
+      <img src="https://example.com/attack-hoodie.jpg" alt="Attack on Titan Hoodie">
+      <h3>Scout Regiment Hoodie</h3>
+      <p>軍隊パーカー | Warm & Stylish</p>
+      <p class="price">$29.99</p>
+      <a href="#" class="btn">Order Now</a>
+    </div>
+  </section>
+</body>
+</html>
